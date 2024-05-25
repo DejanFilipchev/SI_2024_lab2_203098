@@ -10,7 +10,9 @@
 
 if (allItems == null)
 
-allItems да прими вредност null или allItems да прими вредност различна од null
+allItems да прими вредност null
+
+allItems да прими вредност различна од null
 
 if (item.getName() == null || item.getName().length() == 0)
 
