@@ -9,21 +9,39 @@
 4. EVERY BRANCH
 
 if (allItems == null)
+
+
 allItems да прими вредност null или allItems да прими вредност различна од null
 
 if (item.getName() == null || item.getName().length() == 0)
+
+
 ако item.getName() прими вредност null и item.getName().lenght() прими 0
+
+
 ако item.getName() не прими вредност null и item.getName().lenght() прими 0
+
+
 ако item.getName() прими вредност null и item.getName().lenght() не прими 0
+
+
 ако item.getName() не прими вредност null и item.getName().lenght() не прими 0
 
+
 if (item.getBarcode() != null)
+
 ако item.getBarcode() не прими вредност null
+
 ако item.getBarcode() прими вредност null
 
 if (item.getDiscount() > 0)
+
+
 ако item.getDiscount() прими вредност поголема од 0
+
+
 ако item.getDiscount() прими вредност помала од 0
+
 
 if (sum <= payment)
 ако sum прими вредност помала или еднаква од payment
