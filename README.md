@@ -61,3 +61,8 @@ if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(
 ако item.getPrice прими вредност помала од 300 и item.getDiscount() прими вредност помала од 0 и item.getBarcode() на првата позиција да прими карактер 0
 
 ако item.getPrice прими вредност помала од 300 и item.getDiscount() прими вредност помала од 0 и item.getBarcode() на првата позиција да не прими карактер 0
+
+6. ![image](https://github.com/DejanFilipchev/SI_2024_lab2_203098/assets/166148306/9ee2af7d-cd0d-461c-928d-ba7ac7310baf)
+
+   
+
