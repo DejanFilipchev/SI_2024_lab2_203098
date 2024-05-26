@@ -42,3 +42,22 @@ if (sum <= payment)
 
 ако sum прими вредност поголема од payment
 
+5. MULTIPLE CONDITION
+
+if (item.getPrice() > 300 && item.getDiscount() > 0 && item.getBarcode().charAt(0) == '0')
+
+ако item.getPrice прими вредност поглема од 300 и item.getDiscount() прими вредност поголема од 0 и item.getBarcode() на првата позиција да прими карактер 0
+
+ако item.getPrice прими вредност поглема од 300 и item.getDiscount() прими вредност поголема од 0 и item.getBarcode() на првата позиција не да прими карактер 0
+
+ако item.getPrice прими вредност поглема од 300 и item.getDiscount() прими вредност помала од 0 и item.getBarcode() на првата позиција да прими карактер 0
+
+ако item.getPrice прими вредност поглема од 300 и item.getDiscount() прими вредност помала од 0 и item.getBarcode() на првата позиција не да прими карактер 0
+
+ако item.getPrice прими вредност помала од 300 и item.getDiscount() прими вредност поголема од 0 и item.getBarcode() на првата позиција да прими карактер 0
+
+ако item.getPrice прими вредност помала од 300 и item.getDiscount() прими вредност поголема од 0 и item.getBarcode() на првата позиција не да прими карактер 0
+
+ако item.getPrice прими вредност помала од 300 и item.getDiscount() прими вредност помала од 0 и item.getBarcode() на првата позиција да прими карактер 0
+
+ако item.getPrice прими вредност помала од 300 и item.getDiscount() прими вредност помала од 0 и item.getBarcode() на првата позиција да не прими карактер 0
